@@ -23,4 +23,4 @@ sudo nano db.0 or sudo nano db.ipadress
 #Chance your old rDNS(Exp-Ip-Adress: 127.0.0.0)
 0.0.0.127.in-addr.arpa. IN PTR mail.bahadirokay.com.tr.
 #Ctrl-X + Y + "Enter"
-
+sudo service bind9 restart
